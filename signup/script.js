@@ -101,7 +101,7 @@ function adduser(fname,lname, email, pass) {
         document.getElementById("pass").value = ""
         cpass.value = ""
 
-        // setTimeout(()=>{window.open('../login/index.html','_self');},1000)
+        setTimeout(()=>{window.open('../login/index.html','_self');},1000)
     }
     
     else {
