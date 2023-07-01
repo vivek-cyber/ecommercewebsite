@@ -1,0 +1,108 @@
+/* Write styles here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+ 
+  
+ 
+  
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+
+  main
+  {
+    padding: 1rem;
+    padding-right: 0%;
+    
+  }
+  h1
+  {
+    font-size: 80px;
+    font-weight: 400;
+  }
+  h2
+  {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  #p2
+  {
+    
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #p22
+  {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  #img1
+  {
+    
+    width:70%
+  }
+  #btn1
+  {
+    margin-top: 30px;
+    width: 135px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  #btn2
+  {
+    margin-top: 30px;
+    width: 135px;
+    height: 56px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    
+  }
+  /* #p21,#p22
+  {
+    display: inline;
+    height:80%;
+    overflow: hidden;
+  } */
