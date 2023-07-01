@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+ 
+  h1{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1px;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+
+body
+{
+    margin: 0%;
+}
+main-content {
+    
+    position: relative;
+    display:flex;
+   
+  }
+  
+  main-content {
+    
+    width: 100vw;
+    
+  }
+  
+  
+  main-content .active {
+    background-color: black;
+    color: white;
+  }
+  
+  main-content section {
+    margin-top: 1.2rem;
+  }
+  
+  main-content section title {
+    display: block;
+    font-size: 1.5rem;
+  }
+  
+  main-content .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    gap: 1rem;
+    width: 70%;
+  }
+  
+  main-content .items .item {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 9%;
+  }
+  
+  main-content .items .item img {
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  main-content .items .item .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  main-content .items .item .info {
+    padding: 1rem;
+  }
+  
+  main-content .items .item button {
+    width: 100%;
+    border-radius: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  main-content .items .item .colors {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  main-content .items .item .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+  }
+
+  #mainhead
+  {
+    margin: 20px;
+  }
+  .checkoutlist
+  {
+    width:25%;
+    height:75vh;
+    margin: 10px;
+    border:1px solid black;
+    background-color: black;
+    color: white;
+  }
+  #image
+  {
+    display: flex;
+    align-items: center;
+    height: 72%;
+    overflow: hidden;
+  }
+  
+  .checkoutlist>h1{
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  #buttondiv
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+  }
+  #itemslist
+  {
+    background-color: black;
+    color: white;
+    height: 76%;
+  }
+  #checkoutbtn
+  {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 0cm;
+  }
+#list
+{
+  overflow-y: scroll;
+  height: 90%;
+  padding: 7px;
+  padding-left: 10px;
+}
+.anitem
+{
+  display: flex;
+
+}
+.name1{
+overflow-x: hidden;
+width: 70%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+/* .cost
+{
+
+} */
+  #sum
+  {
+    height: 10%;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
